@@ -27,6 +27,11 @@ const searchOptions = [
     type: 'Pokemon',
     page: p.name,
   })),
+  {
+    display: 'Mega Pokémon',
+    type: 'Mega Pokemon',
+    page: '',
+  },
   // Dungeons
   {
     display: 'Dungeons',
@@ -154,6 +159,18 @@ const searchOptions = [
     display: 'Setups (Farm)',
     type: 'Farm',
     page: 'Setups',
+  },
+  // Pokérus
+  {
+    display: 'Pokérus',
+    type: 'Pokérus',
+    page: '',
+  },
+  // Dream Orbs
+  {
+    display: 'Dream Orbs',
+    type: 'Dream Orbs',
+    page: '',
   },
 ];
 // Differentiate our different links with the same name
